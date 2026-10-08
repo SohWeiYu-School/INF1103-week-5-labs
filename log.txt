@@ -1,0 +1,23 @@
+commit 9c2a7274ae88b8f34676f24565c90f212f1dba74
+Author: sohweiyu-school <2603216@sit.singaporetech.edu.sg>
+Date:   Thu Oct 8 15:34:10 2026 +0800
+
+    Add inventory.json file
+
+commit c2296cfd4b56aafeb9a7055eea3d5e468ecf335e
+Author: sohweiyu-school <2603216@sit.singaporetech.edu.sg>
+Date:   Thu Oct 8 15:31:14 2026 +0800
+
+    Add save_inventory, menu system and all CRUD functions"
+
+commit 73fb66776649373ac0f8f56e6626b9fc702807da
+Author: sohweiyu-school <2603216@sit.singaporetech.edu.sg>
+Date:   Thu Oct 8 15:29:48 2026 +0800
+
+    Add load_inventory to load from JSON file
+
+commit e5c968888ad66ae9dda409f365e3434f7697b905
+Author: sohweiyu-school <2603216@sit.singaporetech.edu.sg>
+Date:   Thu Oct 8 15:29:13 2026 +0800
+
+    Add inventory dictionary with initial products
