@@ -15,6 +15,17 @@ inventory = [
 ]
 
 
+def load_inventory():
+    global inventory
+    if os.path.exists(INVENTORY_FILE):
+        print(f"{INVENTORY_FILE} found.")
+        with open(INVENTORY_FILE, "r") as f:
+            inventory = json.load(f)
+        print("Inventory loaded successfully.")
+    else:
+        print(f"{INVENTORY_FILE} not found. Starting with default inventory.")
+
+
 def display_all():
     print("\nCurrent Inventory")
     print("-" * 48)
